@@ -6,6 +6,7 @@ pipeline {
   }
   agent {
   label 'docker_slave1'
+  }
   stages {
     stage('Cloning Git') {
       steps {
